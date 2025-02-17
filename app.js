@@ -60,7 +60,7 @@ function sortearAmigo(){
  }    
  let idSorteio =  Math.floor(Math.random()*lista_Amigos.length); // sorteio um Id de acordo com a quantidade de nomes na lista
  let amigoSorteado = document.getElementById("resultado") // seleciona o ID no html q irá retornar o resultado.
- amigoSorteado.innerHTML = `Você fez uma lista com ${lista_Amigos.length} amigos, é o amigo(a) sorteado é: ${lista_Amigos[idSorteio]}` // gera o resultado do sorteio, 
+ amigoSorteado.innerHTML = `Você fez uma lista com ${lista_Amigos.length} amigos, e o amigo(a) sorteado é: ${lista_Amigos[idSorteio]}` // gera o resultado do sorteio, 
  // com base no IdSorteio, identifica na lista o nome quecorresponde ao Id Sorteado.
  let relacaoAmigos = document.getElementById('listaAmigos');
     relacaoAmigos.innerHTML = ""; // apaga a lista para mostrar apenas o resultado do sorteio.
